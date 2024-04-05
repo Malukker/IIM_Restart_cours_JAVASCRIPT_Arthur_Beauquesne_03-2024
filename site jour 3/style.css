@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-family: Janetson;
+}
+
+article {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    text-align: center;
+    margin : 10px;
+    padding : 10px;
+    background-color: rgb(59, 109, 113);
+}
+
+.card > h1 {
+    background-color: rgb(138, 163, 173);
+    padding: 10px;
+    font-family: Gothic;
+}
+
+.card > h2 {
+    background-color: rgb(222, 204, 151);
+    padding: 10px;
+    font-family: Janetson;
+}
+
+.card > h3 {
+    background-color: rgb(129, 0, 6);
+    padding: 10px;
+    font-family: Type;
+}
+
+.card > img {
+    height: 300px;
+    width: inherit;
+    object-fit: contain;
+    background-color: goldenrod;
+}
+
+@font-face {
+	font-family: Janetson;
+	src : url(Cathylise\ Janetson.otf);
+}
+
+@font-face {
+	font-family: Gothic;
+	src : url(OldLondon.ttf);
+}
+
+@font-face {
+	font-family: Type;
+	src : url(RobsTypewriter-Regular.ttf);
+}
