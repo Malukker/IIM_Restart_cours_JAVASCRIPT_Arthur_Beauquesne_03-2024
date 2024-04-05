@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="big_section" class = "dark">
+        <header>
+            <button id="button" class="button_dark">DARK/LIGHT MODE</button>
+        </header>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">FFVII's Highwind<img src="Highwind.jpg" alt="Highwind"></div>
+            <div class="swiper-slide">Tiny Arms Wolverine<img src="tiny arms.jpg" alt="Logan"></div>
+            <div class="swiper-slide">Happy Gandalf<img src="gandalf.jpg" alt="Gandalf"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>

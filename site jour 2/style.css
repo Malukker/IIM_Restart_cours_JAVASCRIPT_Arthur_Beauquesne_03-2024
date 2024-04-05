@@ -1,0 +1,63 @@
+.dark {
+    background-color: #302929;
+    color: beige;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.light {
+    background-color: #eee;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+}
+
+.button_dark {
+    background-color:#302929;
+    margin: 10px;
+    padding: 5px;
+    color: beige;
+}
+
+.button_light {
+    background-color: #eee;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
